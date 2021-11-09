@@ -18,7 +18,7 @@ def count(nums):
 
         for idx in range(0, len(nums)-1):
 
-            curr=start+counter #makes sure we are starting from the right index
+            curr=start+counter #start from the right index
 
             if curr>len(nums)-1:
                 result.append(counter)
