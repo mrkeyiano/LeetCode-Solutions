@@ -5,13 +5,8 @@
 
 def count(nums):
     print("input: "+str(nums))
-    dict={}
     start=0
-
-    prev = None
-
     result=[]
-
 
     while (start <= len(nums)-1):
         counter = 0
@@ -41,6 +36,7 @@ def count(nums):
                 result.append(key)
                 start=curr
                 break
+                
     return result
 
 
